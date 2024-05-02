@@ -1,0 +1,265 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.gif-background {
+  background-image: url('Bienvenido_1.gif');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+nav {
+  background-color: #333;
+  overflow: hidden;
+  transition: background-color 0.3s ease;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: color 0.3s ease; 
+}
+nav li a:hover {
+  background-color: #111;
+  color: #ccc;
+}
+
+nav li a:focus,
+nav li a:active {
+  background-color: #111;
+  color: #ccc; 
+  animation: pulse 0.5s ease-in-out;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0px rgba(255, 255, 255, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0px rgba(255, 255, 255, 0);
+  }
+}
+  .image-container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+  }
+  .image-container button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 80px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    width: 500px;
+    height: 300px;
+  }
+  body {
+    background-color: #F4DB73;
+  }
+  .Des {
+    position: relative;
+    width: 100%;
+  }
+  
+  .Des img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .download-btn {
+    position: absolute;
+    top: 33.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: blue;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 80px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    width: 450px;
+    height: 80px;
+  }
+  .Dos {
+    position: relative;
+    width: 100%;
+  }
+  
+  .Dos img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .down-btn {
+    position: absolute;
+    top: -217.0px;
+    left: 19%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 80px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    width: 225px; /* Change this value to adjust the button width */
+    height: 60px; /* Change this value to adjust the button height */
+  }
+  .Des {
+    position: relative;
+    width: 100%;
+  }
+  
+  .Des img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .download-btn {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 80px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    width: 225px; /* Change this value to adjust the button width */
+    height: 60px; /* Change this value to adjust the button height */
+  }
+  .Dis {
+    position: relative;
+    width: 100%;
+  }
+  
+  .Dis img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .downl-btn {
+    position: absolute;
+    top: -216px;
+    left: 81%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 80px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    width: 225px; /* Change this value to adjust the button width */
+    height: 60px; /* Change this value to adjust the button height */
+  }
+  .Dcs {
+    position: relative;
+    width: 100%;
+  }
+  
+  .Dcs img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .dow-btn {
+    position: absolute;
+    top: -216px;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(58, 59, 54);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 180px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    width: 225px;
+    height: 60px;
+  }
+  .Das {
+    position: relative;
+    width: 100%;
+  }
+  
+  .Das img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .do-btn {
+    position: absolute;
+    top: -190px;
+    left: 58%;
+    transform: translate(-50%, -50%);
+    background-color:transparent;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 40px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    width: 170px;
+    height: 120px;
+  }
